@@ -23,6 +23,8 @@ export default function Theme({ children }) {
   return (
     <ThemeContext.Provider value={{ darkMode, toggleTheme }}>
       {children}
+
+
     </ThemeContext.Provider>
   );
 }
