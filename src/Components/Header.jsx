@@ -30,27 +30,27 @@ return(
 
 <ul className=" hidden pr-20 gap-5 py-1 md:flex justify-center items-center  ">
   <li className="text-slate-900 dark:text-cyan-400 hover:text-cyan-500 font-medium dark:hover:text-cyan-300 transition-colors duration-300">
-  <NavLink>Home</NavLink>
+  <NavLink to="/">Home</NavLink>
 </li>
     
     <li  className="text-slate-900 dark:text-cyan-400 hover:text-cyan-600 font-medium dark:hover:text-cyan-300 transition-colors duration-300 ease-in-out">
-        <NavLink>Project</NavLink>
+        <NavLink to="/project">Project</NavLink>
     </li>
     
     <li  className="text-slate-900 dark:text-cyan-400 hover:text-cyan-600 font-medium dark:hover:text-cyan-300 transition-colors duration-300 ease-in-out">
-        <NavLink>About</NavLink>
+        <NavLink to="/about">About</NavLink>
     </li>
     
     <li  className="text-slate-900 font-medium dark:text-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 transition-colors duration-300 ease-in-out">
-        <NavLink>Blog</NavLink>
+        <NavLink to="blog">Blog</NavLink>
     </li>
     
     <li  className="text-slate-900 font-medium dark:text-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 transition-colors duration-300 ease-in-out">
-        <NavLink>Skills</NavLink>
+        <NavLink to="skill">Skills</NavLink>
     </li>
   
 <li className="text-slate-900 dark:text-cyan-400 font-medium hover:text-cyan-600 dark:hover:text-cyan-300 transition-colors duration-300 ease-in-out">
-  <NavLink>Contact</NavLink>    
+  <NavLink to="/reachout">Contact</NavLink>    
 </li>
 
     <button onClick={toggleTheme} className=" cursor-pointer p-3 rounded-full bg-gray-50 dark:bg-gray-800 border border-gray-400 dark:border-cyan-400" >

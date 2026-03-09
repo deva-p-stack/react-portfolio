@@ -15,12 +15,12 @@ return(
 <div className="w-full max-w-[1440px] pt-20 flex  mx-auto md:flex-row justify-center items-center px-4 sm:px-6 lg:px-30 flex-col ">
 
 {/* left side  */}
-<div className="flex  justify-center items-center  pl-0">
-  <img data-aos="fade-right" className=" rounded-full w-[40%] object-fill border-cyan-500 border border-2  opacity-85 "   src={logo} alt="devaprabhu" />
+<div className="flex  justify-center items-center md:flex-row flex-col  px-5    ">
+  <img  className=" rounded-full md:w-[40%] w-full   object-fill border-cyan-500 border border-2  opacity-85 "   src={logo} alt="devaprabhu" />
 
   
-<div className=" pl-10 space-y-3">
-<h3 className="text-7xl font-semibold text-slate-900 dark:text-slate-100">
+<div className=" pl-10 pt-10 space-y-3">
+<h3 className="md:text-7xl text-5xl font-semibold text-slate-900 dark:text-slate-100">
   Hi, I am <span className="text-cyan-400">Devaprabhu</span>.
 </h3>
 

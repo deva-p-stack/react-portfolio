@@ -7,6 +7,8 @@ import Academic from './Components/Academic'
 import AOS from "aos";
 import Skill from "./Components/Skill"
 import Email from "./Components/Email"
+import {  Routes, Route } from "react-router-dom";
+import About from './Components/About'
 
 function App() {
 
@@ -14,14 +16,19 @@ function App() {
   return (
     <>
 
-<Header />
-<Home />
-<Education />
-<Academic />
-<Skill />
-<Email  />
-<Footer />
 
+
+ 
+<Header />
+  <Home/>
+  < About />
+ <Education />
+  <Academic />
+ 
+ 
+    <Skill />
+   <Email />
+<Footer />
 
 
 

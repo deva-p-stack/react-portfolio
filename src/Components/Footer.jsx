@@ -5,19 +5,14 @@ return(
 
 <>
 
-<footer className="flex min-h-[30vh] w-full ">
-
-{/* icon */}
-
-<div className="">
+<footer className="flex min-h-[10vh] bg-white flex justify-center items-center dark:bg-slate-950 w-full ">
 
 
 
-</div>
 
-
-<div className="">
-     <h3>© 2026 All rights reserved by Devaprabhu</h3></div> 
+<div className="text-sm  text-cyan-500/90   ">
+     <h3>© 2026 All rights reserved by Devaprabhu</h3>
+</div> 
 
 </footer>
 
